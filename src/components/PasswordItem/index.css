@@ -1,0 +1,59 @@
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.entityContainer {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 8px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: max-content;
+  padding-top: 0px;
+  list-style-type: none;
+}
+.initialEl {
+  background-color: crimson;
+  padding: 8px;
+  padding-left: 12px;
+  color: white;
+  font-size: 17px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-position: center;
+}
+.allCredentialsContainer {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8px;
+  flex-grow: 1;
+}
+.textCSS {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+.passwordStars {
+  width: 60px;
+  margin-top: 2px;
+}
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+}
+.deleteBtn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
